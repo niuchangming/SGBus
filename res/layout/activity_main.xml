@@ -1,0 +1,28 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:background="@color/white" 
+    android:orientation="vertical">
+    <FrameLayout 
+        android:id="@+id/main_header_container"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content">
+		<include layout="@layout/header_layout"/>        
+    </FrameLayout>
+    <ImageView
+        android:id="@+id/main_header_divider"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/shadow_top"/>
+    <com.viewpagerindicator.TitlePageIndicator
+	    android:id="@+id/main_title_indicator"
+	    android:layout_height="wrap_content"
+	    android:layout_width="fill_parent"
+	    android:background="@color/white" />
+    <android.support.v4.view.ViewPager
+       android:id="@+id/main_viewpager" 
+       android:layout_width="match_parent" 
+       android:layout_height="wrap_content"/>
+</LinearLayout>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">SGBus</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="menu_settings">Settings</string>
+    <string name="nearby_bus_stop">Nearby bus stop</string>
+    <string name="nearby">Nearby stops</string>
+    <string name="all">All services</string>
+    <string name="bookmark">Bookmark</string>
+	<string name="filter">Filter(no) ...</string>
+	<string name="coming_time">"  Time  "</string>
+	<string name="line">—</string>
+	<string name="map_mormal">Normal</string>
+    <string name="map_hybrid">Hybrid</string>
+    <string name="map_terrain">Terrain</string>
+    <string name="map_satellite">Satellite</string>
+    <string name="search">Road/Bus/stop</string>
+    <string name="empty">Sorry, no relevant result found.</string>
+</resources>
